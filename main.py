@@ -9,7 +9,7 @@ Config.set('graphics', 'height', '500')
 
 class MyApp(App):
     def build(self):
-        return Button()
+        return Button(text = 'текст')
 
 
 if __name__ == "__main__":
